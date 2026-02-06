@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordPress Dev Day 2026 - San José</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#0073aa', // WordPress Blue
+                            dark: '#1e1e1e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Header / Hero Section -->
+    <header class="bg-brand-blue text-white py-20 px-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold mb-4">WordPress Dev Day 2026</h1>
+            <p class="text-xl mb-8">San José, Costa Rica | Viernes 6 de Febrero, 2026</p>
+            <a href="#agenda" class="bg-white text-brand-blue font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition duration-300">Ver Agenda</a>
+        </div>
+    </header>
+
+    <!-- Agenda Section -->
+    <section id="agenda" class="py-16 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 text-brand-dark">Agenda</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Track A -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4 text-brand-blue border-b pb-2">Track A</h3>
+                    <ul class="space-y-4">
+                        <li class="pb-2 border-b border-gray-100">
+                            <span class="block text-sm text-gray-500 font-mono">09:00 AM</span>
+                            <span class="font-semibold">Keynote de Apertura</span>
+                        </li>
+                        <li class="pb-2 border-b border-gray-100">
+                            <span class="block text-sm text-gray-500 font-mono">10:00 AM</span>
+                            <span class="font-semibold">Desarrollo de Bloques Avanzado</span>
+                        </li>
+                        <li>
+                            <span class="block text-sm text-gray-500 font-mono">11:00 AM</span>
+                            <span class="font-semibold">Headless WordPress con Next.js</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Track B -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4 text-brand-blue border-b pb-2">Track B</h3>
+                    <ul class="space-y-4">
+                        <li class="pb-2 border-b border-gray-100">
+                            <span class="block text-sm text-gray-500 font-mono">10:00 AM</span>
+                            <span class="font-semibold">Optimización de Performance</span>
+                        </li>
+                        <li>
+                            <span class="block text-sm text-gray-500 font-mono">11:00 AM</span>
+                            <span class="font-semibold">Seguridad en Plugins</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Track C -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4 text-brand-blue border-b pb-2">Track C (Taller)</h3>
+                    <ul class="space-y-4">
+                        <li>
+                            <span class="block text-sm text-gray-500 font-mono">10:00 AM - 12:00 PM</span>
+                            <span class="font-semibold">Creando tu primer tema de bloques (FSE)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section id="speakers" class="py-16 px-4 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 text-brand-dark">Speakers Confirmados</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                
+                <!-- Speaker 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl text-gray-500">AC</span>
+                    </div>
+                    <h3 class="font-bold text-lg">Alexander Cuadra</h3>
+                    <p class="text-sm text-gray-600">Lead Developer</p>
+                </div>
+
+                <!-- Speaker 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl text-gray-500">AN</span>
+                    </div>
+                    <h3 class="font-bold text-lg">Alfredo Navas</h3>
+                    <p class="text-sm text-gray-600">Frontend Engineer</p>
+                </div>
+
+                 <!-- Speaker 3 -->
+                 <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl text-gray-500">JD</span>
+                    </div>
+                    <h3 class="font-bold text-lg">Jane Doe</h3>
+                    <p class="text-sm text-gray-600">Core Contributor</p>
+                </div>
+
+                 <!-- Speaker 4 -->
+                 <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl text-gray-500">JS</span>
+                    </div>
+                    <h3 class="font-bold text-lg">John Smith</h3>
+                    <p class="text-sm text-gray-600">Security Expert</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsors & Organizers -->
+    <section id="sponsors" class="py-16 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8 text-brand-dark">Patrocinadores</h2>
+            <div class="flex flex-wrap justify-center items-center gap-12 mb-16 opacity-75 grayscale hover:grayscale-0 transition duration-500">
+                <div class="text-2xl font-bold text-gray-400">Automattic</div>
+                <div class="text-2xl font-bold text-gray-400">Bluehost</div>
+                <div class="text-2xl font-bold text-gray-400">WooCommerce</div>
+                <div class="text-2xl font-bold text-gray-400">Yoast</div>
+            </div>
+
+            <div class="border-t pt-8">
+                <h3 class="text-xl font-semibold mb-4 text-gray-600">Organizado por</h3>
+                <p class="text-gray-500">Comunidad WordPress San José &copy; 2026</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-white py-6 text-center">
+        <p class="text-sm opacity-50">Hecho con HTML & TailwindCSS para el Dev Day.</p>
+    </footer>
+
+</body>
+</html>
