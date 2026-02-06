@@ -24,9 +24,16 @@
 <body class="bg-white text-gray-800 font-sans">
 
     <!-- Header / Hero Section -->
-    <header class="bg-black text-white py-16 px-4 border-b-8 border-brand-lime">
-        <div class="container mx-auto text-left">
-            <h2 class="text-2xl font-bold uppercase tracking-tight mb-2">Febrero 21, 2026</h2>
+    <header class="bg-black text-white py-24 px-4 border-b-8 border-brand-lime">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-brand-lime text-xl font-mono uppercase tracking-[0.2em] mb-4">San José, Costa Rica</h2>
+            <h1 class="text-6xl md:text-8xl font-black uppercase tracking-tighter leading-none mb-8">
+                WordPress<br>Dev Day<br>2026
+            </h1>
+            <div class="flex flex-col md:flex-row md:items-center gap-8">
+                <p class="text-2xl font-bold uppercase border-l-4 border-brand-lime pl-4">Febrero 21, 2026</p>
+                <a href="#agenda" class="bg-brand-lime text-black font-black uppercase py-4 px-10 text-xl hover:bg-white transition duration-300 inline-block w-fit">Ver Agenda</a>
+            </div>
         </div>
     </header>
 
@@ -154,45 +161,45 @@
     </section>
 
     <!-- Speakers Section -->
-    <section id="speakers" class="py-16 px-4 bg-gray-100">
-        <div class="container mx-auto">
-            <h2 class="text-3xl font-bold text-center mb-12 text-brand-dark">Speakers Confirmados</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+    <section id="speakers" class="py-16 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl font-black uppercase mb-12 border-l-8 border-brand-lime pl-4">Speakers</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                 
                 <!-- Speaker 1 -->
-                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
-                    <div class="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4 flex items-center justify-center">
-                        <span class="text-2xl text-gray-500">AC</span>
-                    </div>
-                    <h3 class="font-bold text-lg">Alexander Cuadra</h3>
-                    <p class="text-sm text-gray-600">Lead Developer</p>
+                <div class="bg-black text-white p-8 border border-black hover:border-brand-lime transition-colors group">
+                    <h3 class="text-2xl font-bold uppercase mb-2 group-hover:text-brand-lime transition-colors">Alexander Cuadra</h3>
+                    <p class="text-brand-lime text-xs font-mono uppercase tracking-widest">Speaker</p>
                 </div>
 
                 <!-- Speaker 2 -->
-                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
-                    <div class="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4 flex items-center justify-center">
-                        <span class="text-2xl text-gray-500">AN</span>
-                    </div>
-                    <h3 class="font-bold text-lg">Alfredo Navas</h3>
-                    <p class="text-sm text-gray-600">Frontend Engineer</p>
+                <div class="bg-black text-white p-8 border border-black hover:border-brand-lime transition-colors group">
+                    <h3 class="text-2xl font-bold uppercase mb-2 group-hover:text-brand-lime transition-colors">Alfredo Navas</h3>
+                    <p class="text-brand-lime text-xs font-mono uppercase tracking-widest">Speaker</p>
                 </div>
 
                  <!-- Speaker 3 -->
-                 <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
-                    <div class="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4 flex items-center justify-center">
-                        <span class="text-2xl text-gray-500">JD</span>
-                    </div>
-                    <h3 class="font-bold text-lg">Jane Doe</h3>
-                    <p class="text-sm text-gray-600">Core Contributor</p>
+                 <div class="bg-black text-white p-8 border border-black hover:border-brand-lime transition-colors group">
+                    <h3 class="text-2xl font-bold uppercase mb-2 group-hover:text-brand-lime transition-colors">Dunnia Vargas</h3>
+                    <p class="text-brand-lime text-xs font-mono uppercase tracking-widest">Speaker</p>
                 </div>
 
                  <!-- Speaker 4 -->
-                 <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
-                    <div class="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4 flex items-center justify-center">
-                        <span class="text-2xl text-gray-500">JS</span>
-                    </div>
-                    <h3 class="font-bold text-lg">John Smith</h3>
-                    <p class="text-sm text-gray-600">Security Expert</p>
+                 <div class="bg-black text-white p-8 border border-black hover:border-brand-lime transition-colors group">
+                    <h3 class="text-2xl font-bold uppercase mb-2 group-hover:text-brand-lime transition-colors">Francisco Calderón</h3>
+                    <p class="text-brand-lime text-xs font-mono uppercase tracking-widest">Speaker</p>
+                </div>
+
+                <!-- Speaker 5 -->
+                <div class="bg-black text-white p-8 border border-black hover:border-brand-lime transition-colors group">
+                    <h3 class="text-2xl font-bold uppercase mb-2 group-hover:text-brand-lime transition-colors">Rommel Castro</h3>
+                    <p class="text-brand-lime text-xs font-mono uppercase tracking-widest">Speaker</p>
+                </div>
+
+                <!-- Speaker 6 -->
+                <div class="bg-black text-white p-8 border border-black hover:border-brand-lime transition-colors group">
+                    <h3 class="text-2xl font-bold uppercase mb-2 group-hover:text-brand-lime transition-colors">Ronny Freites</h3>
+                    <p class="text-brand-lime text-xs font-mono uppercase tracking-widest">Speaker</p>
                 </div>
 
             </div>
@@ -200,26 +207,45 @@
     </section>
 
     <!-- Sponsors & Organizers -->
-    <section id="sponsors" class="py-16 px-4">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-8 text-brand-dark">Patrocinadores</h2>
-            <div class="flex flex-wrap justify-center items-center gap-12 mb-16 opacity-75 grayscale hover:grayscale-0 transition duration-500">
-                <div class="text-2xl font-bold text-gray-400">Automattic</div>
-                <div class="text-2xl font-bold text-gray-400">Bluehost</div>
-                <div class="text-2xl font-bold text-gray-400">WooCommerce</div>
-                <div class="text-2xl font-bold text-gray-400">Yoast</div>
-            </div>
+    <section id="sponsors" class="py-16 px-4 bg-white">
+        <div class="container mx-auto max-w-6xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+                
+                <!-- Sponsors -->
+                <div>
+                    <h2 class="text-3xl font-black uppercase mb-8 border-l-8 border-brand-lime pl-4">Patrocinadores</h2>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="p-4 border border-gray-200 flex items-center justify-center font-bold text-gray-400 grayscale hover:grayscale-0 transition hover:border-black">Automattic</div>
+                        <div class="p-4 border border-gray-200 flex items-center justify-center font-bold text-gray-400 grayscale hover:grayscale-0 transition hover:border-black">Bluehost</div>
+                        <div class="p-4 border border-gray-200 flex items-center justify-center font-bold text-gray-400 grayscale hover:grayscale-0 transition hover:border-black">hosting.com</div>
+                        <div class="p-4 border border-gray-200 flex items-center justify-center font-bold text-gray-400 grayscale hover:grayscale-0 transition hover:border-black">Kinsta</div>
+                        <div class="p-4 border border-gray-200 flex items-center justify-center font-bold text-gray-400 grayscale hover:grayscale-0 transition hover:border-black">Woo</div>
+                    </div>
+                </div>
 
-            <div class="border-t pt-8">
-                <h3 class="text-xl font-semibold mb-4 text-gray-600">Organizado por</h3>
-                <p class="text-gray-500">Comunidad WordPress San José &copy; 2026</p>
+                <!-- Organizers -->
+                <div>
+                    <h2 class="text-3xl font-black uppercase mb-8 border-l-8 border-brand-lime pl-4">Organizadores</h2>
+                    <ul class="space-y-2 font-bold uppercase text-sm">
+                        <li class="flex items-center"><span class="w-2 h-2 bg-brand-lime mr-3"></span> Aaron Galagarza</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-brand-lime mr-3"></span> Francisco Leiton</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-brand-lime mr-3"></span> Giancarlos</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-brand-lime mr-3"></span> Krysia</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-brand-lime mr-3"></span> Mauricio Barrantes</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-brand-lime mr-3"></span> Ronny Freites</li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-brand-dark text-white py-6 text-center">
-        <p class="text-sm opacity-50">Hecho con HTML & TailwindCSS para el Dev Day.</p>
+    <footer class="bg-black text-white py-12 px-4 border-t-8 border-brand-lime">
+        <div class="container mx-auto max-w-6xl text-center">
+            <p class="text-xs font-mono uppercase tracking-widest text-gray-500">WordPress Dev Day San José &copy; 2026</p>
+            <p class="mt-4 text-[10px] text-gray-700">Diseño inspirado en el estilo brutalista moderno.</p>
+        </div>
     </footer>
 
 </body>
